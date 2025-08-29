@@ -35,9 +35,9 @@ st.markdown("""
     Please enter the patient information below. The system will predict the probability of delirium occurring within 7 days after ICU admission for sepsis patients based on the externally validated SHAP interpretable model.<br>
     All measured variables should use average values from the first 24 hours after ICU admission (except GCS which uses the lowest value within the first 24 hours).</p>
 
-    <p><strong>说明:</strong><br>
-    请输入以下的患者信息，系统将基于经外部验证的SHAP可解释性模型预测ICU脓毒症患者在ICU入科7天内发生谵妄的概率。<br>
-    以下所有需测量的变量均需使用入ICU后第1天内的平均值数据（GCS为取入ICU1天内最低值）。</p>
+    说明:
+    请输入以下的患者信息，系统将基于经外部验证的SHAP可解释性模型预测ICU脓毒症患者在ICU入科7天内发生谵妄的概率。
+    以下所有需测量的变量均需使用入ICU后第1天内的平均值数据（GCS为取入ICU1天内最低值）。
 </div>
 """, unsafe_allow_html=True)
 
@@ -270,4 +270,5 @@ with st.sidebar:
                 mime="application/json"
             )
     except:
+
         st.warning("Config file not available for download")
