@@ -1,0 +1,20 @@
+{
+    "model": "CatBoost Simplified",
+    "optimal_threshold": 0.1999650958824375,
+    "selected_features": [
+        "hypertension",
+        "gcs_min",
+        "temperature",
+        "sbp",
+        "spo2",
+        "urineoutput_24h",
+        "platelet",
+        "charlson_comorbidity_index",
+        "creatinine",
+        "admission_age",
+        "potassium",
+        "oasis",
+        "apsiii",
+        "hemoglobin"
+    ]
+}
